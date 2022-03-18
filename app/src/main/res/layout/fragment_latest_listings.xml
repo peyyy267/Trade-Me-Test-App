@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:id="@+id/v01"
+                android:tag="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v02"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v02"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v03"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v04"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v03"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v05"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v06"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v06"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v11"
+                android:tag="2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v12"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v12"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v13"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v16"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v21"
+                android:tag="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v22"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v22"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v23"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v24"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v23"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v26"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v26"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v31"
+                android:tag="4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v32"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v32"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v33"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v35"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v36"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v36"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v41"
+                android:tag="5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v42"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v42"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v43"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v45"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v46"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v46"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v51"
+                android:tag="6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v52"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v52"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v53"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v56"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v61"
+                android:tag="7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v62"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v62"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v63"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v66"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v71"
+                android:tag="8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v72"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v72"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v73"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v76"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v81"
+                android:tag="9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v82"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v82"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v83"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v86"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v91"
+                android:tag="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v92"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v92"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v93"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v96"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v101"
+                android:tag="11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v102"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v102"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v103"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v106"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v111"
+                android:tag="12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v112"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v112"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v114"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v113"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v115"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v116"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v116"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v121"
+                android:tag="13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v122"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v122"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v124"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v123"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v126"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v126"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v131"
+                android:tag="14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v132"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v132"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v133"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v134"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v133"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v135"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v136"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v136"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v141"
+                android:tag="15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v142"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v142"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v143"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v144"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v143"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v145"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v146"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v146"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v151"
+                android:tag="16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v152"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v152"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v153"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v154"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v153"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v155"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v156"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v156"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v161"
+                android:tag="17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v162"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v162"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v163"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v164"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v163"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v165"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v166"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v166"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v171"
+                android:tag="18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v172"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v172"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v173"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v174"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v173"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v175"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v176"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v176"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v181"
+                android:tag="19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v182"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v182"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v183"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v184"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v183"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v185"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v186"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v186"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:id="@+id/v191"
+                android:tag="20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="4dp">
+                <ImageView
+                    android:id="@+id/v192"
+                    android:layout_width="124dp"
+                    android:layout_height="124dp"
+                    android:padding="4dp"
+                    android:layout_alignParentLeft="true" />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toLeftOf="@id/v192"
+                    android:padding="4dp">
+                    <TextView
+                        android:id="@+id/v193"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true" />
+                    <TextView
+                        android:id="@+id/v194"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_below="@id/v193"
+                        android:maxLines="2"
+                        android:textSize="18sp" />
+                    <TextView
+                        android:id="@+id/v195"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_above="@id/v196"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/v196"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true" />
+                </RelativeLayout>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

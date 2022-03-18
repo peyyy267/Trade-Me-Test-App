@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">PE Application</string>
+    <string name="title_latest_listings">Latest Listings</string>
+    <string name="title_watchlist">Watchlist</string>
+    <string name="title_my_trade_me">My Trade Me</string>
+    <string name="latest_listings_url">https://api.tmsandbox.co.nz/v1/listings/latest.json</string>
+    <string name="consumer_key">A1AC63F0332A131A78FAC304D007E7D1</string>
+    <string name="consumer_secret">EC7F18B17A062962C6930A8AE88B16C7</string>
+    <string name="no_reserve">No Reserve</string>
+    <string name="buy_now">Buy Now</string>
+</resources>

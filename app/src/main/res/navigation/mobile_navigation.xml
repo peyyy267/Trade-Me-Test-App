@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_latest_listings">
+
+    <fragment
+        android:id="@+id/navigation_latest_listings"
+        android:name="com.example.peapplication.ui.home.HomeFragment"
+        android:label="@string/title_latest_listings"
+        tools:layout="@layout/fragment_latest_listings" />
+
+    <fragment
+        android:id="@+id/navigation_watchlist"
+        android:name="com.example.peapplication.ui.dashboard.DashboardFragment"
+        android:label="@string/title_watchlist"
+        tools:layout="@layout/fragment_watchlist" />
+
+    <fragment
+        android:id="@+id/navigation_my_trade_me"
+        android:name="com.example.peapplication.ui.notifications.NotificationsFragment"
+        android:label="@string/title_my_trade_me"
+        tools:layout="@layout/fragment_my_trade_me" />
+</navigation>
